@@ -4,14 +4,15 @@ github-jenkins-tomcat-RDS-Mysql
 templates and works
 
 GitHub Repository link ==>>>   https://github.com/sakit333/BCCI-Servlet-project.git
-Admin Login==>>> 
-## user name - 
+
+# Admin Login
+## user name  
 ```
 sak@gmail.com
 ```
-## password - 
+## password  
 ```
-sak123
+sak333
 ```
 
 <property name="javax.persistence.jdbc.url"    
@@ -29,6 +30,9 @@ sak123
 commands to execute in database server
 ```bash
 sudo su -
+```
+```
+yum update -y
 ```
 ```
 yum install mysql -y
